@@ -24,6 +24,7 @@ label_1.place(x=0,y=100.5)
 buttons = ['A1','A2','A3','B1','B2','B3','C1','C2','C3']
 A1,A2,A3,B1,B2,B3,C1,C2,C3 = [ctk.CTkButton(master=frame_1, command=button_callback, width=100, height=100, text=x, fg_color="transparent") for x in buttons]
 
+#Mass button placement
 A1.place(x=0, y=0)
 A2.place(x=100, y=0)
 A3.place(x=200, y=0)
